@@ -63,8 +63,21 @@
 
 // Работа с функциями
 
-function sum( x, y){
-	return x + y; 
-}
-console.log(sum(10, 50)); 
+//function sum( x, y){
+//	return x + y; 
+// }
+// console.log(sum(10, 50)); 
 
+// Работа с объектами 
+
+var myObject = {
+	name: "Pavel",
+	surname: "Korsun", 
+	age: 19, 
+	getFullName: function () {
+		return this.name = "" =  this.surname; 
+	} 
+}; 
+myObject.name = "Pavel";
+console.log(myObject.name);
+console.log(myObject.getFullName());
