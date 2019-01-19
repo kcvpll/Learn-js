@@ -3,8 +3,8 @@
 
 // Работа со строками
 
-var myNumber = 40 + 10;
-var myString = "Привет, ";
+//var myNumber = 40 + 10;
+// var myString = "Привет, ";
 // console.log( "40" + myNumber); //вывод 4050, т.к. "" - это строка 
 // console.log (myString + "как дела?"); 
 // console.log (myString.toLowerCase()); // переводим всё в нижний регистр (ПРИВЕТ - привет);
@@ -12,9 +12,19 @@ var myString = "Привет, ";
 
 // Работа с массивами 
 
-var names = ["Pavel", "Aleks", "Salmon", "Dmitriy"]; 
+// var names = ["Pavel", "Aleks", "Salmon", "Dmitriy"]; 
 //var numbers = [1,2,3,4];
 //console.log(names[3].toUpperCase()); // получаем первый идекс из массива - Алекс
-names[1] = "Masha"; // меняем то, что находится под индексом 1
-names.push("Sveta"); // добавляем в конец массива имя Света
-console.log(names);
+// names[1] = "Masha"; // меняем то, что находится под индексом 1
+// names.push("Sveta"); // добавляем в конец массива имя Света
+// console.log(names);
+
+// Работа с условиями 
+// && - и, || - или 
+
+var myNumber = 10;
+if ("Вася" !== "Петя" || myNumber < 5) {  // оба условия должны быть выполнены 
+	console.log("Правильно"); 
+} else {
+	console.log ("Неправильно")
+}
