@@ -1,6 +1,8 @@
 //var newNumber = 2.985; 
 //console.log(newNumber.toFixed(1)); // после точки выводит 1 знак + округление
 
+
+
 // Работа со строками
 
 //var myNumber = 40 + 10;
@@ -9,6 +11,8 @@
 // console.log (myString + "как дела?"); 
 // console.log (myString.toLowerCase()); // переводим всё в нижний регистр (ПРИВЕТ - привет);
 // console.log (myString.toUpperCase()); // переводим всё в верхний регистр (привет - ПРИВЕТ);
+
+
 
 // Работа с массивами 
 
@@ -19,12 +23,39 @@
 // names.push("Sveta"); // добавляем в конец массива имя Света
 // console.log(names);
 
+
+
 // Работа с условиями 
 // && - и, || - или 
 
-var myNumber = 10;
-if ("Вася" !== "Петя" || myNumber < 5) {  // оба условия должны быть выполнены 
-	console.log("Правильно"); 
-} else {
-	console.log ("Неправильно")
-}
+// var myNumber = 10;
+// if ("Вася" !== "Петя" || myNumber < 5) {  // оба условия должны быть выполнены 
+	// console.log("Правильно"); 
+// } else {
+//	console.log ("Неправильно")
+// }
+
+
+
+// Работа с циклами
+
+// for (var i = 0; i < 10; i++) {
+//	if(i == 5){ 
+		// break; досрочный выход из цикла если i = 5
+//		continue; //выходим из текущей итерации и продолжаем дальше, 5 не выводится в консоль 
+//	}
+//	console.log(i);
+// } 
+
+
+// var names = ["Pavel", "Aleks", "Salmon", "Dmitriy"]; 
+// for( var j = 0; j < names.length; j++ ){ //перебор массива
+// 	console.log(names[j]);
+// }
+
+// Синтаксис цикла while
+// var i = 0
+// while (i < 10){
+// 	console.log(i);
+// 	i++;
+// }
